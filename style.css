@@ -1,0 +1,254 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Rubik', sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+    font-size: 1rem;
+}
+
+a:hover {
+    color: red;
+}
+
+header {
+    position: relative;
+    padding: 0 2rem;
+    box-shadow: 0 0 10px grey;
+}
+
+
+.navbar {
+    width: 100%;
+    height: 60px;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* box-shadow: 0 0 50px 0 grey; */
+}
+
+.navbar .logo a {
+    font-size: 1.5rem;
+    font-weight: bold;
+
+}
+
+.navbar .links {
+    display: flex;
+    gap: 2rem;
+}
+
+.action_button {
+    background-color: rgb(255, 208, 0);
+    padding: 0.5rem 1rem;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+
+.action_button:hover {
+    scale: 1.08;
+}
+
+/* ------------------------------Section 1--------------------------- */
+
+section .main  {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    top: 130px
+}
+
+.h1-main {
+    font-style: italic;
+    font-size: 35px;
+    margin-bottom: 50px;
+}
+
+span {
+    color: rgb(228, 39, 5);
+}
+
+section p {
+    width: 650px;
+    text-align: justify;
+    position: relative;
+    left: 10px;
+    bottom: 10px;
+    line-height: 30px;
+    font-size: 20px;
+}
+
+section .action_button_main {
+    background-color: rgb(255, 208, 0);
+    padding: 0.5rem 1rem;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+    /* left: 130px; */
+    width: 115px;
+    display: flex;
+    text-align:center;    
+    position: relative;
+
+}
+
+section .action_button_main:hover {
+    scale: 1.09;
+}
+
+
+section .text-main .p-main .action_button_main {
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* ------------------------------section 2-------------------------- */
+
+.title h1 {
+    width: 100%;
+    padding: 50px 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+    font-size: 35px;
+    margin-bottom: 50px;
+    font-style: italic;
+    align-items: center;
+
+
+}
+
+
+.all_cards {
+    display: grid;
+    grid-template-columns: repeat(5 , 20%);
+    padding: 20px 20px;
+}
+
+
+/* .our_products .pro_card1  .pro_card3 .pro_card4 .pro_crad5 {
+    width: 325px;
+    height: 480px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    box-shadow: 0 0 10px grey;
+
+} */
+
+.all_cards img {
+    width: 100%;
+    height: 100%;
+}
+
+.pro_card1  {
+    /* width: 250px;
+    height: 300px; */
+    padding-top: 10px;
+    padding-bottom: 20px;
+    box-shadow: 0 0 10px grey;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.pro_card2  {
+    width: 250px;
+    height: 300px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    box-shadow: 0 0 10px grey;
+    height: 100%;
+    width: 100%;
+}
+
+
+.pro_card3  {
+    width: 250px;
+    height: 300px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    box-shadow: 0 0 10px grey;
+    height: 100%;
+    width: 100%;
+}
+
+
+.pro_card4  {
+    width: 250px;
+    height: 300px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    box-shadow: 0 0 10px grey;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+
+.pro_card5  {
+    width: 250px;
+    height: 300px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    box-shadow: 0 0 10px grey;
+    height: 100%;
+    width: 100%;
+}
+
+.pro_img {
+    width: 250px;
+    height: 220px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1px 1px;
+    object-fit: fill;
+    object-position: 50% 50%;
+    border-radius: 10px
+}
+
+.pro_name {
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 15px;
+}
+
+
+button{
+    background-color: rgb(255, 208, 0);
+    color: rgb(212, 31, 31)(168, 10, 10);
+    padding: 0.5rem 1rem;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 0.8rem;
+    cursor: pointer;
+    display: flex;
+    /* align-items: flex-end; */
+    justify-content: center
+}
